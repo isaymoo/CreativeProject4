@@ -43,7 +43,10 @@ font-size: 12px;
 
 
 }
-
+img{
+width: 240px;
+height: auto;
+}
 #nav {
   padding: 30px;
 }
