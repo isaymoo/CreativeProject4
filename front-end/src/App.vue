@@ -11,7 +11,7 @@
     </div>
     <router-view />
   <div class="footer">
-    <p><a href="https://github.com/BYU-CS-260-Winter-2020/CreativeProject4.git">github</a></p>
+    <p><a href="https://github.com/isaymoo/CreativeProject4.git">github</a></p>
   </div>
 </div>
 </template>

@@ -10,16 +10,16 @@ app.use(bodyParser.urlencoded({
 const mongoose = require('mongoose');
 
 // connect to the database
-mongoose.connect('mongodb://localhost:27017/museum', {
+mongoose.connect('mongodb://localhost:27017/games', {
   useNewUrlParser: true
 });
 
 // Configure multer so that it will upload to '../front-end/public/images'
 const multer = require('multer')
 const upload = multer({
-  dest: '../var/www/cp4.jessewj.com/images/',
+  dest: '/var/www/cp4.jessewj.com/images/',
   limits: {
-    fileSize: 10000000
+    fileSize: 100000000000000000
   }
 });
 
@@ -111,4 +111,4 @@ app.put('/api/items/:id', async (req, res) => {
 });
     
 
-app.listen(3002, () => console.log('Server listening on port 3002!'));
+app.listen(3003, () => console.log('Server listening on port 3003!'));
