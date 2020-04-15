@@ -10,11 +10,10 @@
     </div>
     </div>
     <router-view />
-  </div>
   <div class="footer">
-    <router-link to="/admin">Admin</router-link>
     <p><a href="https://github.com/BYU-CS-260-Winter-2020/CreativeProject4.git">github</a></p>
   </div>
+</div>
 </template>
 
 <style>
@@ -34,6 +33,15 @@ body {
   background: pink;
   padding: 10px 100px;
   color: white;
+}
+
+.footer { 
+	height: 50px;
+padding: 20px 100px 0px 100px;
+background: #e3e3e3;
+font-size: 12px;
+
+
 }
 
 #nav {
